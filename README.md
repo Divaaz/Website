@@ -1,5 +1,10 @@
 # Website
+
+hello
+
 Ignore that one useless search bar
+
+this website only containt 10 movies, nothing else
 
 Yes, It's hard making these but It's fun
 
