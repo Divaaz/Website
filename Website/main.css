@@ -1,0 +1,155 @@
+@font-face {
+    src: url(font/BaksoSapi.otf);
+    font-family: Bakso;
+}
+
+
+
+@font-face {
+    font-family: stanberry;
+    src: url(font/Stanberry.ttf);
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #A2D2FF;
+}
+
+
+.box1{
+    position: absolute;
+    top: 390%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #FEF9EF;
+    height: 4750px;
+    width: 1000px;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+
+.search-box{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #FEF9EF;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+
+}
+
+
+.search-box:hover > .search-txt{
+    width: 240px;
+    padding: 0 6px;
+}
+
+
+.search-box:hover > .search-btn{
+    background: rgb(182, 182, 182);
+}
+
+
+.search-btn{
+    color: #A2D2FF;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #FEF9EF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: #6F69AC;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+    font-family: stanberry;
+}
+
+
+.heading-1{
+    font-size: 85px;
+    color: #F037A5;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: bakso;
+}
+
+
+.p1{
+    color: #6F69AC;
+    justify-content: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: stanberry;
+    font-size: 20px;
+}
+
+
+    
+    .movieItem:hover {
+        background-color: #FCFFA6;
+    }
+
+
+    .movielist {
+        margin-top: 12px;
+        padding: 8px;
+        border: none;
+        border-radius: 6px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: clip;
+        
+    }
+
+
+    .movieThumb{
+        width: 300px;
+        margin-right: 9px;
+        vertical-align: middle;
+        border-radius: 9px;
+    }
+
+
+    .movieTitle{
+        font-size: 20px;
+        font-family: stanberry;
+        justify-self: start;
+        color: black;
+    }
+
+
+    .movieRank{
+        font-size: 30px;
+        font-family: bakso;
+        justify-self: center;
+    }
+
+
+    .moviedes{
+        font-size: 20px;
+        font-family: stanberry;
+        justify-self: auto;
+    }
